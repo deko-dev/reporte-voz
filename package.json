@@ -1,0 +1,19 @@
+{
+  "name": "reporte-voz-app",
+  "version": "1.0.0",
+  "description": "WebApp para realizar reportes del Coronavirus ( COVID-19 )",
+  "main": "src/assets/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deko-dev/reporte-voz.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deko-dev/reporte-voz/issues"
+  },
+  "homepage": "https://github.com/deko-dev/reporte-voz#readme"
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Voz</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+    <header class="Header">
+        <div class="Header-logo">
+            <h2>Reporte de Voz</h2>
+        </div>
+        <div class="Header-options">
+            <a href="">
+                <i class="fa fa-question-circle" aria-hidden="true"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </header>
+
+    <main class="Main">
+        <div class="Main-nurse">
+            <img src="./assets/img/nurse.png" alt="">
+        </div>
+        <div class="Main-textarea">
+            <div class="Main-textarea-btns">
+                <button class="btn-play" id="botongrabar">
+                    <i class="fas fa-play" aria-hidden="true"></i> Hablar
+                </button class="">
+                <button class="btn-pause" id="botonpausar">
+                    <i class="fas fa-pause" aria-hidden="true"></i> Pausar
+                </button>
+            </div>
+            <div class="Main-textarea-area">
+                <textarea name="report" id="report" cols="30" rows="10" placeholder="Aquí se verá tu reporte!!"></textarea>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <p> &copy; </p>
+    </footer>
+
+    <script src="./assets/js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
